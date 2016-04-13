@@ -1,0 +1,12 @@
+Conexión de QT con MySQL y PostgreSQL:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1) En ubuntu se instala el paquete libqt4-sql-mysql para mysql y libqt4-sql-psql para postgresql.
+
+2) Se crea el programa normal con "#include <QtSql>".
+
+3) Se creal el proyecto, osea se hace "qmake -proyect" y "qmake -makefile".
+
+4) Al final del archivo .pro se agrega la siguiente linea: "QT += sql".
+
+5) Se termina de compilar con "make". 
